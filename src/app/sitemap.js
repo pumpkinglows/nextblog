@@ -7,7 +7,7 @@ export default async function sitemap() {
   const routes = postList.map((v) => {
     return {
       url: `${URL}/post/${v.slug}`,
-      lastModified: new Date(v.date).toISOString(),
+      lastModified: new Date(v.created).toISOString(),
     };
   });
 
