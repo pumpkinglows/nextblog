@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+
+Sitemap:  https://quirksblog.vercel.app/sitemap.xml
