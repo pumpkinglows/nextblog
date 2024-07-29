@@ -20,7 +20,7 @@ const PostViewer = ({ postData }) => {
               return <div key={category}>{category}</div>;
             })}
           </div>
-          <div className={styles.date}>{postData.date}</div>
+          <div className={styles.date}>{postData.created}</div>
         </section>
         <div>
           <MDXRemote {...postData.mdx} components={MdxContainer} />

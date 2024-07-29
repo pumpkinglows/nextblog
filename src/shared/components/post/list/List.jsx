@@ -12,7 +12,7 @@ const PostList = ({ postList }) => {
               {post.title}
             </Link>
             <div className={styles.description}>{post.description}</div>
-            <div className={styles.date}>{post.date}</div>
+            <div className={styles.date}>{post.created}</div>
           </div>
         );
       })}
